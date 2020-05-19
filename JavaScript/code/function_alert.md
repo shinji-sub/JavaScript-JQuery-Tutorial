@@ -1,0 +1,18 @@
+```javascript
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="button" value="confirm" onclick="func_confirm()" />
+        <script>
+            function func_confirm(){
+                if(confirm('ok?')){
+                    alert('ok');
+                } else {
+                    alert('cancel');
+                }
+            }
+        </script>
+    </body>
+</html>
+```
+
